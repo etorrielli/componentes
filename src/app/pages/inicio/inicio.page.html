@@ -1,9 +1,24 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>inicio</ion-title>
-  </ion-toolbar>
+<ion-header no-border>
+    <ion-toolbar>
+        <ion-title>inicio</ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <ion-list>
 
+        <!--      HARDCODE-->
+        <!--      <ion-item routerLink="/alert" detail>-->
+        <!--        <ion-label>Alert</ion-label>-->
+        <!--      </ion-item>-->
+        <!--      <ion-item routerLink="/action-sheet" detail>-->
+        <!--        <ion-label>Action-Sheet</ion-label>-->
+        <!--      </ion-item>-->
+
+        <ion-item *ngFor="let c of componentes" [routerLink]="c.redirectTo" detail>
+            <ion-icon slot="start" [name]="c.icon"></ion-icon>
+            <ion-label>{{c.name}}</ion-label>
+        </ion-item>
+
+    </ion-list>
 </ion-content>
