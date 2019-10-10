@@ -10,7 +10,9 @@ const routes: Routes = [
   { path: 'botones', loadChildren: './pages/botones/botones.module#BotonesPageModule' },
   { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
   { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
-  { path: 'datetime', loadChildren: './pages/datetime/datetime.module#DatetimePageModule' }
+  { path: 'datetime', loadChildren: './pages/datetime/datetime.module#DatetimePageModule' },
+  { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
+  { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' }
 ];
 
 @NgModule({
