@@ -1,14 +1,14 @@
 import {Component, OnInit} from '@angular/core';
-import {Componente} from '../../interfaces/componente';
-import {Observable} from 'rxjs';
 import {DataService} from '../../services/data.service';
+import {Observable} from 'rxjs';
+import {Componente} from '../../interfaces/componente';
 
 @Component({
-    selector: 'app-inicio',
-    templateUrl: './inicio.page.html',
-    styleUrls: ['./inicio.page.scss'],
+    selector: 'app-menu',
+    templateUrl: './menu.component.html',
+    styleUrls: ['./menu.component.scss'],
 })
-export class InicioPage implements OnInit {
+export class MenuComponent implements OnInit {
 
     componentes: Observable<Componente[]>;
 
@@ -20,5 +20,3 @@ export class InicioPage implements OnInit {
     }
 
 }
-
-
