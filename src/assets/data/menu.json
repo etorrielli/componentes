@@ -53,5 +53,10 @@
     "icon": "hammer",
     "name": "Input Forms",
     "redirectTo": "/input"
+  },
+  {
+    "icon": "phone-portrait",
+    "name": "Modal",
+    "redirectTo": "/modal"
   }
 ]

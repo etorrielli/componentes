@@ -1,0 +1,21 @@
+<ion-header no-border>
+    <ion-toolbar>
+        <ion-title>{{nombre}} -- {{pais}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-button color="primary"
+                expand="full"
+                (click)="salirSinParametros()">
+        Salir sin parametros
+    </ion-button>
+
+    <ion-button color="secondary"
+                expand="full"
+                (click)="salirConParametros()">
+        Salir con parametros
+    </ion-button>
+
+</ion-content>
