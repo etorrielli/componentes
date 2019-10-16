@@ -4,12 +4,14 @@ import {HeaderComponent} from './header/header.component';
 import {IonicModule} from '@ionic/angular';
 import {MenuComponent} from './menu/menu.component';
 import {RouterModule} from '@angular/router';
+import {PopinfoComponent} from './popinfo/popinfo.component';
 
 
 @NgModule({
     declarations: [
         HeaderComponent,
         MenuComponent,
+        PopinfoComponent
     ],
     imports: [
         CommonModule,
@@ -18,7 +20,8 @@ import {RouterModule} from '@angular/router';
     ],
     exports: [
         HeaderComponent,
-        MenuComponent
+        MenuComponent,
+        PopinfoComponent
     ]
 })
 export class ComponentsModule {

@@ -58,5 +58,15 @@
     "icon": "phone-portrait",
     "name": "Modal",
     "redirectTo": "/modal"
+  },
+  {
+    "icon": "tablet-portrait",
+    "name": "Popover",
+    "redirectTo": "/popover"
+  },
+  {
+    "icon": "copy",
+    "name": "Segment",
+    "redirectTo": "/segment"
   }
 ]
